@@ -1,0 +1,17 @@
+{
+  "name": "exam-grievance-portal-vite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \" cd ./client && npm start\" \" cd ./server && npm start\"",
+    "install": "concurrently \" cd ./client && npm install\" \" cd ./server && npm install\"",
+    "start-frontend": "cd ./frontend && npm run dev",
+    "start-backend": "cd ./backend && npm start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
